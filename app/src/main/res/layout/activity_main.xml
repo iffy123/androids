@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundact1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="HOW MANY MCQs DO YOU HAVE "
+        android:textColor="#FAF8F8"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/inputMCQN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="TYPE HERE "
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FAF8F8"
+        android:textColorHint="#FAFAFA" />
+
+    <Button
+        android:id="@+id/MainNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="NEXT" />
+</LinearLayout>
